@@ -1,4 +1,4 @@
-# MySQL with few databases
+# MySQL with multiple databases
 
 This is an example of a MySQL container with multiple databases.
 
