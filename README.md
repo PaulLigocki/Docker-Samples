@@ -11,7 +11,7 @@ The 01-databases.sql MySQL script will run only on container creation, and will 
 # start service
 docker-compose up -d
  
-# login to database and type password 'P@$$w0rd'
+# login to database and list databases 'password'
 
 sudo docker exec mysql-multiple-databases_db_1 mysql -uroot -p'password' -e 'SHOW DATABASES;'
 ``` 
