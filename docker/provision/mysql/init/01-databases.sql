@@ -1,0 +1,16 @@
+# create databases
+CREATE DATABASE IF NOT EXISTS `primary`;
+CREATE DATABASE IF NOT EXISTS `secondary`;
+CREATE DATABASE IF NOT EXISTS `tertiary`;
+CREATE DATABASE IF NOT EXISTS `quaternary`;
+CREATE DATABASE IF NOT EXISTS `quinary,`;
+CREATE DATABASE IF NOT EXISTS `senary`;
+CREATE DATABASE IF NOT EXISTS `septenary`;
+CREATE DATABASE IF NOT EXISTS `octonary`;
+CREATE DATABASE IF NOT EXISTS `nonary`;
+CREATE DATABASE IF NOT EXISTS `denary`;
+
+
+# create root user and grant rights
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'local';
+GRANT ALL ON *.* TO 'root'@'%';
