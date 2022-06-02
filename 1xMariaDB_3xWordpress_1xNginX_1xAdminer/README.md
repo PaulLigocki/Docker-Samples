@@ -18,16 +18,16 @@ docker-compose up -d
 ```bash
 sudo docker exec 1xMariaDB_3xWordpress_1xNginX_1xAdminer_db_1 mariadb -uroot -p'rootpassword' -e 'SHOW DATABASES;'
 ``` 
-  +--------------------+
-  | Database           |
-  +--------------------+
-  | information_schema |
-  | mysql              |
-  | performance_schema |
-  | sys                |
-  | wordpress          |
-  | wordpress2         |
-  | wordpress3         |
-  +--------------------+
+  +--------------------+  
+  | Database           |  
+  +--------------------+  
+  | information_schema |  
+  | mysql              |  
+  | performance_schema |  
+  | sys                |  
+  | wordpress          |  
+  | wordpress2         |  
+  | wordpress3         |  
+  +--------------------+  
 
 
