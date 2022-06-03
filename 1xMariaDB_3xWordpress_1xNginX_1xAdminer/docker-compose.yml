@@ -61,6 +61,9 @@ services:
 
   adminer:
     image: adminer
+    ports:
+      - "8080:8080"
+#      - "443:443"
 
   nginx:
     image: nginx
